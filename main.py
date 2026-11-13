@@ -1,4 +1,3 @@
-pip install -r requirements.txt
 from bakery import assert_equal
 from dataclasses import dataclass, field
 from drafter import *
