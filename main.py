@@ -1,7 +1,7 @@
 from bakery import assert_equal
 from dataclasses import dataclass, field
 from drafter import *
-from sympy import Matrix
+from sympy-master import Matrix
 from math import lcm, gcd
 from functools import reduce
 
