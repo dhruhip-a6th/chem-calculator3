@@ -5,6 +5,8 @@ from sympy import Matrix
 from math import lcm, gcd
 from functools import reduce
 
+set_website_style("sakura")
+
 set_website_title("Chem Calculator")
 set_site_information(
     author="Dhruhi Patel",
@@ -15,8 +17,6 @@ set_site_information(
 )
 hide_debug_information()
 set_website_framed(False)
-
-set_website_style("sakura")
 
 atomic_masses = {
     "H": 1.008,
