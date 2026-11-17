@@ -5,6 +5,17 @@ from sympy import Matrix
 from math import lcm, gcd
 from functools import reduce
 
+set_website_title("Chem Calculator")
+set_site_information(
+    author="Dhruhi Patel",
+    description="Balance your equation, find the limiting reactant, and calculate the excess",
+    sources="Thanks to the Drafter docs, sympy library, and artificial intelligence.",
+    planning=[],
+    links=["https://github.com/dhruhip-a6th/chem-calculator3"]
+)
+hide_debug_information()
+set_website_framed(False)
+
 atomic_masses = {
     "H": 1.008,
     "He": 4.003,
