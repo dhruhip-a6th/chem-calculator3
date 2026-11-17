@@ -298,7 +298,7 @@ def count_elements(compounds, coefficients=None):
     return totals
 
 
-def format_side(compounds: list[Reactant], coefficients: list[coeff]):
+def format_side(compounds: list[Reactant], coefficients: list[int]):
     '''
     This function takes a list of chemical compounds
     and a corresponding list of their coefficients in a
