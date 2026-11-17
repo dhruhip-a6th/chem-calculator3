@@ -7,6 +7,14 @@ from functools import reduce
 
 set_website_style("sakura")
 
+add_website_css("""
+button {
+    background-color: darkseagreen;
+    border: 3px double seagreen;
+    padding: 8px 16px;
+}
+""")
+
 set_website_title("Chem Calculator")
 set_site_information(
     author="Dhruhi Patel",
