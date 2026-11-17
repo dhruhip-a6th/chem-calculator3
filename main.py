@@ -194,9 +194,9 @@ def index(state: State) -> Page:
         "Products:",
         TextBox("chem_products", "ex. NH3 \n", style_color="crimson"),
 
-        "Enter the mass of each reactant in grams, "
-        "one mass per line," 
-        italic("in the same order as")
+        "Enter the mass of each reactant in grams",
+        "one mass per line,", 
+        italic("in the same order as"),
         "those above:",
 
         TextArea("masses", "ex. \n28.02\n6.048\n", style_color="crimson"),
