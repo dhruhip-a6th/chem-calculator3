@@ -196,7 +196,7 @@ def index(state: State) -> Page:
 
         "Enter the mass of each reactant in grams, "
         "one mass per line," 
-        italic("in the same order as"),
+        italic("in the same order as")
         "those above:",
 
         TextArea("masses", "ex. \n28.02\n6.048\n", style_color="crimson"),
