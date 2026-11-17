@@ -182,23 +182,24 @@ def index(state: State) -> Page:
         Page: Updated page with state values
     '''
     return Page(state, [
-        Header("Welcome to Chem Calculator"),
+        Header("Welcome to Chem Calculator", style_font_family="Georgia"),
 
         "Enter a chemical reaction below. Separate "
         "the reactants and products using a '+'. "
-        "The reaction does not have to be balanced.",
+        "The reaction does not have to be balanced.\n",
 
         "Reactants:",
-        TextBox("chem_reactants", "ex. N2+H2"),
+        TextBox("chem_reactants", "ex. N2+H2 \n", style_color="crimson"),
 
         "Products:",
-        TextBox("chem_products", "ex. NH3"),
+        TextBox("chem_products", "ex. NH3 \n", style_color="crimson"),
 
         "Enter the mass of each reactant in grams, "
-        "one mass per line, in the same order as "
+        "one mass per line," 
+        italic("in the same order as"),
         "those above:",
 
-        TextArea("masses", "ex. \n28.02\n6.048"),
+        TextArea("masses", "ex. \n28.02\n6.048\n", style_color="crimson"),
 
         Button("Balance Chemical Reaction", "balance_reaction")
     ])
