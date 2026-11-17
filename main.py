@@ -16,6 +16,8 @@ set_site_information(
 hide_debug_information()
 set_website_framed(False)
 
+set_website_style("sakura")
+
 atomic_masses = {
     "H": 1.008,
     "He": 4.003,
